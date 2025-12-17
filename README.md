@@ -6,11 +6,11 @@ This project allows users to search for jobs based on title and type, register/l
 ---
 
 ## Features
-
+- Input validation using express-validator
 - Search jobs by *title* and *type* (remote/on-site)
 - User *registration and login* (authentication)
 - RESTful API endpoints for managing jobs
-- Error handling and data validation
+- Error handling 
 
 ---
 
