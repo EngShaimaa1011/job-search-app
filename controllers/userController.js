@@ -6,7 +6,6 @@ const getProfile = async (req, res) => {
 
   res.status(200).json(user);
 };
-
 // UPDATE PROFILE
 const updateProfile = async (req, res) => {
   const { name, email } = req.body;
